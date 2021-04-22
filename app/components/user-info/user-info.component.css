@@ -1,13 +1,12 @@
-    body{
-        font-family: Helvetica,Arial,sans-serif;
-        }
-    .container{
-      float: left;
-      width: 65%;
-      background-color: #d9d9df;
-      margin-top: 20px;
-      border-radius: 2.5em;
-      
+   
+    .about .avatar{
+        position: relative;
+        
+    }
+    .avatar 
+    {
+        height: 200px;
+        width: 200px;
     }
     .card-body{
       margin-left: 20px;
@@ -39,17 +38,9 @@
       cursor: pointer;
     }
     
-    .avatar{
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      margin-left: 20px;
-      margin-top: 20px;
-    }
-    
     .line{
        border-bottom: 2px solid #c9c9ca;
-        width: 100%;
+        width: 50%;
         margin-top: 15px;
     }
     
@@ -58,9 +49,4 @@
       justify-content: center;
       text-align: left;
     }
-
-
-    /* Убрал точки, если что, возможно, надо добавить класс к ul (но это не факт) */
-    ul{
-      list-style-type: none;
-    }
+    

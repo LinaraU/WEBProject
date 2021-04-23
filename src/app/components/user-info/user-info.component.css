@@ -1,0 +1,52 @@
+   
+    .about .avatar{
+        position: relative;
+        
+    }
+    .avatar 
+    {
+        height: 200px;
+        width: 200px;
+    }
+    .card-body{
+      margin-left: 20px;
+    }
+    .story-user-info{
+    display: inline-block;
+    text-align: center;
+    line-height: 10px;
+    }
+    
+    #user{
+    font-size: 15px;
+    margin: 15px;
+    text-decoration: underline;
+    
+    
+    }
+    #edit{
+    margin: 20px;
+    float: right;
+    text-align: middle;
+    }
+    
+    a{
+      padding: 15px;
+    }
+    a :hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    
+    .line{
+       border-bottom: 2px solid #c9c9ca;
+        width: 50%;
+        margin-top: 15px;
+    }
+    
+    .footer{
+      margin: 20px;
+      justify-content: center;
+      text-align: left;
+    }
+    

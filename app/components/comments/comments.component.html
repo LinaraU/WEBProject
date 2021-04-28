@@ -1,0 +1,37 @@
+<!-- <app-post></app-post> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+
+
+<div class = "container">
+    <div class = "story-user-info">
+    <img class = "avatar" src = "https://i.pinimg.com/originals/6f/66/59/6f6659f80c2c5a7bd4b9a9b3d17474eb.jpg" alt="Avatar">
+    <a [routerLink]="['/user', post.userId] " id = "user">{{post.userId}}</a>
+    </div>
+      <button>edit</button>
+      <div class = "line"></div>
+    
+      <article class = "card-body">
+      <h4>{{post.title}}</h4>
+        <p>{{post.body}}</p>
+      </article>
+    
+    <div class = "line"></div>
+    <div class ="footer">
+      <a>Like</a>
+
+      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp; src=sdkpreparse" class="fb-xfbml-parse-ignore"><i class="fab fa-facebook"></i></a>
+      <a  class="twitter-share-button"  href="https://twitter.com/share?ref_src=twsrc%5Etfw" data-show-count="false"><i class="fab fa-twitter"></i></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a onclick="window.open('https://web.whatsapp.com://send?text=TEST')"> <i class="fab fa-whatsapp"></i> </a>
+    </div>
+  </div>
+
+    <ul *ngFor="let comment of comments">
+        <li>
+          <div class = "containercomment">
+            <a class="user">{{comment.email}}</a>
+            <h4>{{comment.name}}</h4>
+            <p>{{comment.body}}</p>   
+            <a>Like</a>         
+          </div>
+        </li>
+    </ul>

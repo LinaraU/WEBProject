@@ -1,9 +1,101 @@
-   
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  height: 100%;
+  display: flex;
+  cursor: pointer;
+  max-width: 400px;
+}
+
+input{
+  justify-items: center;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+}
+
+img{
+  width: 50px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+button {
+  background-color:  rgb(202, 139, 52);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container-avatar{
+  float: left;
+  width: 55%;
+  background-color: rgb(248, 241, 232);
+  margin-top: 10px;
+  border-radius: 1.5em;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+.post-container{
+  float:left;
+
+}
+.sidenav {
+  float: left;
+  width:60%;
+  background:rgb(238, 212, 176);
+  margin:60px auto;
+  padding:15px 15px 20px 0px;
+  border:1px solid rgb(172, 168, 168);
+  border-radius:4px;
+  box-shadow:0px 2px 3px rgba(0, 0, 0, 0.75);
+}
+a{
+  font-size:10px;
+  font-weight:300;
+  text-align:center;
+  position:relative;
+  height:10px;
+  line-height:10px;
+  margin-top:5px;
+  width:90%;
+  margin-right:10px;
+  cursor:pointer;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #050000;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #6e6e6e;
+}
     .about .avatar{
         position: relative;
-        
+
     }
-    .avatar 
+    .avatar
     {
         height: 200px;
         width: 200px;
@@ -16,20 +108,20 @@
     text-align: center;
     line-height: 10px;
     }
-    
+
     #user{
     font-size: 15px;
     margin: 15px;
     text-decoration: underline;
-    
-    
+
+
     }
     #edit{
     margin: 20px;
     float: right;
-    text-align: middle;
+    text-align: center;
     }
-    
+
     a{
       padding: 15px;
     }
@@ -37,16 +129,15 @@
       text-decoration: underline;
       cursor: pointer;
     }
-    
+
     .line{
        border-bottom: 2px solid #c9c9ca;
         width: 50%;
         margin-top: 15px;
     }
-    
+
     .footer{
       margin: 20px;
       justify-content: center;
       text-align: left;
     }
-    

@@ -17,6 +17,8 @@ import { HomeComponent } from './components/home/home.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AuthService } from './components/login/auth.service';
 import {HttpClient } from '@angular/common/http';
+import { CommentsComponent } from './components/comments/comments.component';
+import { UserPostsComponent } from './components/user-posts/user-posts.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import {HttpClient } from '@angular/common/http';
     LoginComponent,
     UserInfoComponent,
     NotFoundComponent,
-    HomeComponent
+    HomeComponent,
+    CommentsComponent,
+    UserPostsComponent
   ],
   imports: [
     BrowserModule,

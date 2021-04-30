@@ -10,7 +10,7 @@ import { PostService} from '../../services/post.service';
 })
 export class CommentsComponent implements OnInit {
 
-  public post;
+  public post = {userId:'', body:'', title:''};
   public comments = [];
   id:number;
   constructor(
